@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AMPopTip" "${PODS_ROOT}/Headers/Public/EZAudio" "${PODS_ROOT}/Headers/Public/FDWaveformView" "${PODS_ROOT}/Headers/Public/PopoverView" "${PODS_ROOT}/Headers/Public/TPCircularBuffer"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AMPopTip" -isystem "${PODS_ROOT}/Headers/Public/EZAudio" -isystem "${PODS_ROOT}/Headers/Public/FDWaveformView" -isystem "${PODS_ROOT}/Headers/Public/PopoverView" -isystem "${PODS_ROOT}/Headers/Public/TPCircularBuffer"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AMPopTip" -l"EZAudio" -l"FDWaveformView" -l"PopoverView" -l"TPCircularBuffer" -framework "AVFoundation" -framework "Accelerate" -framework "AudioToolbox" -framework "CoreGraphics" -framework "GLKit" -framework "MediaPlayer"
+PODS_ROOT = ${SRCROOT}/Pods

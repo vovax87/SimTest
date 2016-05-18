@@ -1,0 +1,26 @@
+PODS:
+  - AMPopTip (0.10.2)
+  - EZAudio (1.1.5):
+    - EZAudio/Full (= 1.1.5)
+  - EZAudio/Core (1.1.5)
+  - EZAudio/Full (1.1.5):
+    - EZAudio/Core
+    - TPCircularBuffer (= 1.1)
+  - FDWaveformView (0.3.1)
+  - PopoverView (0.0.2)
+  - TPCircularBuffer (1.1)
+
+DEPENDENCIES:
+  - AMPopTip
+  - EZAudio (~> 1.1)
+  - FDWaveformView
+  - PopoverView
+
+SPEC CHECKSUMS:
+  AMPopTip: 0788a9452806049e3aa0d6d09324606fc41ea646
+  EZAudio: 3b1cb4b6d7ebca68f0c2478576d75940aad4aa99
+  FDWaveformView: 9d641a95bc0abd8af27cac4c973b015735d916f0
+  PopoverView: 62e83ffda75944d6cf2de9c6593489f3097dc1a3
+  TPCircularBuffer: 4960a919e667280f7f38963d771f45871b64fe62
+
+COCOAPODS: 0.39.0

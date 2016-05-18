@@ -1,0 +1,887 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CB5507710761FE18BAD4834 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 452B753145A716C36C71938D /* libPods.a */; };
+		3D0C5A001C7C9E0D0083E15F /* tudum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D0C59FE1C7C9E0D0083E15F /* tudum.mp3 */; };
+		3D0C5A011C7C9E0D0083E15F /* ring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D0C59FF1C7C9E0D0083E15F /* ring.mp3 */; };
+		3D0C5A061C7C9EB70083E15F /* SoundTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0C5A051C7C9EB70083E15F /* SoundTableCell.m */; };
+		3D3508031C9863060042138C /* TracksView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3508021C9863060042138C /* TracksView.m */; };
+		3D42F2661C9B009400C6D30E /* video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3D42F2651C9B009400C6D30E /* video.mov */; };
+		3D569AC61CCE138D00057A29 /* Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D569AC51CCE138D00057A29 /* Timer.m */; };
+		3D569ACD1CCFA69100057A29 /* PerformanceAreaStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D569ACC1CCFA69100057A29 /* PerformanceAreaStep.m */; };
+		3D5E03F61C7B18D90059CC14 /* VideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5E03F51C7B18D90059CC14 /* VideoController.m */; };
+		3D5E03F91C7B61230059CC14 /* SoundsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5E03F81C7B61230059CC14 /* SoundsTableView.m */; };
+		3D5E03FC1C7C74B60059CC14 /* ToolsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5E03FB1C7C74B60059CC14 /* ToolsView.m */; };
+		3D6B7ED11C81C6B500929744 /* libTestFairy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D6B7ECE1C81C6B500929744 /* libTestFairy.a */; };
+		3D6B7ED21C81C6B500929744 /* upload-dsym.sh in Resources */ = {isa = PBXBuildFile; fileRef = 3D6B7ED01C81C6B500929744 /* upload-dsym.sh */; };
+		3D6B7ED41C81C70100929744 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D6B7ED31C81C70100929744 /* CoreMedia.framework */; };
+		3D6B7ED61C81C70700929744 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D6B7ED51C81C70700929744 /* CoreMotion.framework */; };
+		3D6B7ED81C81C70E00929744 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D6B7ED71C81C70E00929744 /* AVFoundation.framework */; };
+		3D6B7EDA1C81C71A00929744 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D6B7ED91C81C71A00929744 /* SystemConfiguration.framework */; };
+		3D6B7EDC1C81C72200929744 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D6B7EDB1C81C72200929744 /* OpenGLES.framework */; };
+		3D7480641C884150005932DB /* UIView+MakeFromXib.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7480631C884150005932DB /* UIView+MakeFromXib.m */; };
+		3DD757FB1CC914A600056A0F /* MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD757FA1CC914A600056A0F /* MenuController.m */; };
+		3DF67DBA1CB51E1400FD005D /* StepsFrameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF67DB91CB51E1400FD005D /* StepsFrameController.m */; };
+		3DF9798D1CC6686C00A7EF42 /* ProjectCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9798C1CC6686C00A7EF42 /* ProjectCollectionViewCell.m */; };
+		843999851CA04C9D00FD1D42 /* SoundsForms in Resources */ = {isa = PBXBuildFile; fileRef = 843999841CA04C9D00FD1D42 /* SoundsForms */; };
+		DF19028D1C7759DC00963461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF19028C1C7759DC00963461 /* main.m */; };
+		DF1902901C7759DC00963461 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF19028F1C7759DC00963461 /* AppDelegate.m */; };
+		DF1902961C7759DD00963461 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1902941C7759DD00963461 /* Main.storyboard */; };
+		DF1902981C7759DD00963461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1902971C7759DD00963461 /* Assets.xcassets */; };
+		DF19029B1C7759DD00963461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1902991C7759DD00963461 /* LaunchScreen.storyboard */; };
+		DF1902A61C7759DD00963461 /* SoundInMotionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1902A51C7759DD00963461 /* SoundInMotionTests.m */; };
+		DF1902B11C7759DD00963461 /* SoundInMotionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1902B01C7759DD00963461 /* SoundInMotionUITests.m */; };
+		DF1902C31C776C0F00963461 /* ProjectGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1902C21C776C0F00963461 /* ProjectGlobals.m */; };
+		DF1902C51C776C8E00963461 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1902C41C776C8E00963461 /* Constants.m */; };
+		DF1902C91C776D4200963461 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1902C81C776D4200963461 /* MainController.m */; };
+		DF1A8E301CC4A8B2005CED5F /* PerfomanceAreaStepGraphicFX.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1A8E261CC4A8B2005CED5F /* PerfomanceAreaStepGraphicFX.m */; };
+		DF1A8E311CC4A8B2005CED5F /* PerformanceArea.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1A8E281CC4A8B2005CED5F /* PerformanceArea.m */; };
+		DF1A8E321CC4A8B2005CED5F /* PerformanceAreaCar.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1A8E2A1CC4A8B2005CED5F /* PerformanceAreaCar.m */; };
+		DF1A8E331CC4A8B2005CED5F /* PerformanceAreaRain.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1A8E2C1CC4A8B2005CED5F /* PerformanceAreaRain.m */; };
+		DF1A8E351CC4A8B2005CED5F /* PerformanceAreaStep.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF1A8E2F1CC4A8B2005CED5F /* PerformanceAreaStep.xib */; };
+		DF1A8E391CC4AAC8005CED5F /* SelectedPerformanceArea.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1A8E371CC4AAC8005CED5F /* SelectedPerformanceArea.m */; };
+		DF1A8E3A1CC4AAC8005CED5F /* SelectedPerformanceArea.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF1A8E381CC4AAC8005CED5F /* SelectedPerformanceArea.xib */; };
+		DF1A8E3D1CC4AAF8005CED5F /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1A8E3C1CC4AAF8005CED5F /* iCarousel.m */; };
+		DF6523DB1CEB917C00275600 /* MovieSoundEdition.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6523D41CEB917C00275600 /* MovieSoundEdition.m */; };
+		DF6523DC1CEB917C00275600 /* RecordSession.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6523D61CEB917C00275600 /* RecordSession.m */; };
+		DF6523DD1CEB917C00275600 /* SoundRange.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6523D81CEB917C00275600 /* SoundRange.m */; };
+		DF6523DE1CEB917C00275600 /* SoundTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6523DA1CEB917C00275600 /* SoundTrack.m */; };
+		DF6523E11CEB920E00275600 /* CompositionPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6523E01CEB920E00275600 /* CompositionPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF1902A21C7759DD00963461 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF1902801C7759DC00963461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF1902871C7759DC00963461;
+			remoteInfo = SoundInMotion;
+		};
+		DF1902AD1C7759DD00963461 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF1902801C7759DC00963461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF1902871C7759DC00963461;
+			remoteInfo = SoundInMotion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D0C59FE1C7C9E0D0083E15F /* tudum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tudum.mp3; sourceTree = "<group>"; };
+		3D0C59FF1C7C9E0D0083E15F /* ring.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ring.mp3; sourceTree = "<group>"; };
+		3D0C5A041C7C9EB70083E15F /* SoundTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundTableCell.h; path = SoundInMotion/SoundTableCell.h; sourceTree = SOURCE_ROOT; };
+		3D0C5A051C7C9EB70083E15F /* SoundTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundTableCell.m; path = SoundInMotion/SoundTableCell.m; sourceTree = SOURCE_ROOT; };
+		3D3508011C9863060042138C /* TracksView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TracksView.h; path = SoundInMotion/TracksView.h; sourceTree = SOURCE_ROOT; };
+		3D3508021C9863060042138C /* TracksView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TracksView.m; path = SoundInMotion/TracksView.m; sourceTree = SOURCE_ROOT; };
+		3D42F2651C9B009400C6D30E /* video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = video.mov; sourceTree = "<group>"; };
+		3D569AC41CCE138D00057A29 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		3D569AC51CCE138D00057A29 /* Timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timer.m; sourceTree = "<group>"; };
+		3D569ACC1CCFA69100057A29 /* PerformanceAreaStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerformanceAreaStep.m; sourceTree = "<group>"; };
+		3D5E03F41C7B18D90059CC14 /* VideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoController.h; sourceTree = "<group>"; };
+		3D5E03F51C7B18D90059CC14 /* VideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoController.m; sourceTree = "<group>"; };
+		3D5E03F71C7B61230059CC14 /* SoundsTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundsTableView.h; path = SoundInMotion/Controllers/SoundsTableView.h; sourceTree = SOURCE_ROOT; };
+		3D5E03F81C7B61230059CC14 /* SoundsTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundsTableView.m; path = SoundInMotion/Controllers/SoundsTableView.m; sourceTree = SOURCE_ROOT; };
+		3D5E03FA1C7C74B60059CC14 /* ToolsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToolsView.h; path = SoundInMotion/ToolsView.h; sourceTree = SOURCE_ROOT; };
+		3D5E03FB1C7C74B60059CC14 /* ToolsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ToolsView.m; path = SoundInMotion/ToolsView.m; sourceTree = SOURCE_ROOT; };
+		3D6B7ECE1C81C6B500929744 /* libTestFairy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFairy.a; sourceTree = "<group>"; };
+		3D6B7ECF1C81C6B500929744 /* TestFairy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFairy.h; sourceTree = "<group>"; };
+		3D6B7ED01C81C6B500929744 /* upload-dsym.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "upload-dsym.sh"; sourceTree = "<group>"; };
+		3D6B7ED31C81C70100929744 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3D6B7ED51C81C70700929744 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		3D6B7ED71C81C70E00929744 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3D6B7ED91C81C71A00929744 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3D6B7EDB1C81C72200929744 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		3D7480621C884150005932DB /* UIView+MakeFromXib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MakeFromXib.h"; sourceTree = "<group>"; };
+		3D7480631C884150005932DB /* UIView+MakeFromXib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MakeFromXib.m"; sourceTree = "<group>"; };
+		3DD757F91CC914A600056A0F /* MenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuController.h; sourceTree = "<group>"; };
+		3DD757FA1CC914A600056A0F /* MenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuController.m; sourceTree = "<group>"; };
+		3DF67DB81CB51E1400FD005D /* StepsFrameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepsFrameController.h; sourceTree = "<group>"; };
+		3DF67DB91CB51E1400FD005D /* StepsFrameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepsFrameController.m; sourceTree = "<group>"; };
+		3DF9798B1CC6686C00A7EF42 /* ProjectCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectCollectionViewCell.h; sourceTree = "<group>"; };
+		3DF9798C1CC6686C00A7EF42 /* ProjectCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectCollectionViewCell.m; sourceTree = "<group>"; };
+		452B753145A716C36C71938D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD1A090E0FCFF26919D28FC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		843999841CA04C9D00FD1D42 /* SoundsForms */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SoundsForms; path = SoundInMotion/SoundsForms; sourceTree = "<group>"; };
+		9541FA18F862DEE4FB398B06 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DF1882821CA575970083B3BD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DF1902881C7759DC00963461 /* SoundInMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundInMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF19028C1C7759DC00963461 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF19028E1C7759DC00963461 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF19028F1C7759DC00963461 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF1902951C7759DD00963461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF1902971C7759DD00963461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF19029A1C7759DD00963461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF19029C1C7759DD00963461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1902A11C7759DD00963461 /* SoundInMotionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundInMotionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1902A51C7759DD00963461 /* SoundInMotionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundInMotionTests.m; sourceTree = "<group>"; };
+		DF1902A71C7759DD00963461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1902AC1C7759DD00963461 /* SoundInMotionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundInMotionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1902B01C7759DD00963461 /* SoundInMotionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundInMotionUITests.m; sourceTree = "<group>"; };
+		DF1902B21C7759DD00963461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1902C11C776C0F00963461 /* ProjectGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectGlobals.h; sourceTree = "<group>"; };
+		DF1902C21C776C0F00963461 /* ProjectGlobals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectGlobals.m; sourceTree = "<group>"; };
+		DF1902C41C776C8E00963461 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		DF1902C61C776CC500963461 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		DF1902C71C776D4200963461 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		DF1902C81C776D4200963461 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		DF1A8E251CC4A8B2005CED5F /* PerfomanceAreaStepGraphicFX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfomanceAreaStepGraphicFX.h; sourceTree = "<group>"; };
+		DF1A8E261CC4A8B2005CED5F /* PerfomanceAreaStepGraphicFX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfomanceAreaStepGraphicFX.m; sourceTree = "<group>"; };
+		DF1A8E271CC4A8B2005CED5F /* PerformanceArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceArea.h; sourceTree = "<group>"; };
+		DF1A8E281CC4A8B2005CED5F /* PerformanceArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerformanceArea.m; sourceTree = "<group>"; };
+		DF1A8E291CC4A8B2005CED5F /* PerformanceAreaCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceAreaCar.h; sourceTree = "<group>"; };
+		DF1A8E2A1CC4A8B2005CED5F /* PerformanceAreaCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerformanceAreaCar.m; sourceTree = "<group>"; };
+		DF1A8E2B1CC4A8B2005CED5F /* PerformanceAreaRain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceAreaRain.h; sourceTree = "<group>"; };
+		DF1A8E2C1CC4A8B2005CED5F /* PerformanceAreaRain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerformanceAreaRain.m; sourceTree = "<group>"; };
+		DF1A8E2D1CC4A8B2005CED5F /* PerformanceAreaStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceAreaStep.h; sourceTree = "<group>"; };
+		DF1A8E2F1CC4A8B2005CED5F /* PerformanceAreaStep.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PerformanceAreaStep.xib; sourceTree = "<group>"; };
+		DF1A8E361CC4AAC8005CED5F /* SelectedPerformanceArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedPerformanceArea.h; sourceTree = "<group>"; };
+		DF1A8E371CC4AAC8005CED5F /* SelectedPerformanceArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedPerformanceArea.m; sourceTree = "<group>"; };
+		DF1A8E381CC4AAC8005CED5F /* SelectedPerformanceArea.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectedPerformanceArea.xib; sourceTree = "<group>"; };
+		DF1A8E3B1CC4AAF8005CED5F /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		DF1A8E3C1CC4AAF8005CED5F /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		DF6523D31CEB917C00275600 /* MovieSoundEdition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieSoundEdition.h; sourceTree = "<group>"; };
+		DF6523D41CEB917C00275600 /* MovieSoundEdition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieSoundEdition.m; sourceTree = "<group>"; };
+		DF6523D51CEB917C00275600 /* RecordSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordSession.h; sourceTree = "<group>"; };
+		DF6523D61CEB917C00275600 /* RecordSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordSession.m; sourceTree = "<group>"; };
+		DF6523D71CEB917C00275600 /* SoundRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundRange.h; sourceTree = "<group>"; };
+		DF6523D81CEB917C00275600 /* SoundRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundRange.m; sourceTree = "<group>"; };
+		DF6523D91CEB917C00275600 /* SoundTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundTrack.h; sourceTree = "<group>"; };
+		DF6523DA1CEB917C00275600 /* SoundTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundTrack.m; sourceTree = "<group>"; };
+		DF6523DF1CEB920E00275600 /* CompositionPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositionPlayer.h; sourceTree = "<group>"; };
+		DF6523E01CEB920E00275600 /* CompositionPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositionPlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF1902851C7759DC00963461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6B7EDC1C81C72200929744 /* OpenGLES.framework in Frameworks */,
+				3D6B7EDA1C81C71A00929744 /* SystemConfiguration.framework in Frameworks */,
+				3D6B7ED81C81C70E00929744 /* AVFoundation.framework in Frameworks */,
+				3D6B7ED61C81C70700929744 /* CoreMotion.framework in Frameworks */,
+				3D6B7ED41C81C70100929744 /* CoreMedia.framework in Frameworks */,
+				3CB5507710761FE18BAD4834 /* libPods.a in Frameworks */,
+				3D6B7ED11C81C6B500929744 /* libTestFairy.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF19029E1C7759DD00963461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1902A91C7759DD00963461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D6B7ECD1C81C6A500929744 /* TestFairy */ = {
+			isa = PBXGroup;
+			children = (
+				3D6B7ECE1C81C6B500929744 /* libTestFairy.a */,
+				3D6B7ECF1C81C6B500929744 /* TestFairy.h */,
+				3D6B7ED01C81C6B500929744 /* upload-dsym.sh */,
+			);
+			name = TestFairy;
+			sourceTree = "<group>";
+		};
+		3DB4876F1C99742700F99F67 /* TracksView */ = {
+			isa = PBXGroup;
+			children = (
+				3D3508011C9863060042138C /* TracksView.h */,
+				3D3508021C9863060042138C /* TracksView.m */,
+				3DB487701C99748D00F99F67 /* SoundsTableView */,
+				DF1A8E241CC4A8B2005CED5F /* PerformanceArea */,
+			);
+			name = TracksView;
+			sourceTree = "<group>";
+		};
+		3DB487701C99748D00F99F67 /* SoundsTableView */ = {
+			isa = PBXGroup;
+			children = (
+				3D5E03F71C7B61230059CC14 /* SoundsTableView.h */,
+				3D5E03F81C7B61230059CC14 /* SoundsTableView.m */,
+				3D0C5A041C7C9EB70083E15F /* SoundTableCell.h */,
+				3D0C5A051C7C9EB70083E15F /* SoundTableCell.m */,
+			);
+			name = SoundsTableView;
+			sourceTree = "<group>";
+		};
+		5F140DECD8EDAA59C87DE475 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D6B7EDB1C81C72200929744 /* OpenGLES.framework */,
+				3D6B7ED91C81C71A00929744 /* SystemConfiguration.framework */,
+				3D6B7ED71C81C70E00929744 /* AVFoundation.framework */,
+				3D6B7ED51C81C70700929744 /* CoreMotion.framework */,
+				3D6B7ED31C81C70100929744 /* CoreMedia.framework */,
+				452B753145A716C36C71938D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		687FF23D5823B9461F79BAB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9541FA18F862DEE4FB398B06 /* Pods.debug.xcconfig */,
+				5FD1A090E0FCFF26919D28FC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF19027F1C7759DC00963461 = {
+			isa = PBXGroup;
+			children = (
+				DF19028A1C7759DC00963461 /* SoundInMotion */,
+				843999841CA04C9D00FD1D42 /* SoundsForms */,
+				DF1902A41C7759DD00963461 /* SoundInMotionTests */,
+				DF1902AF1C7759DD00963461 /* SoundInMotionUITests */,
+				DF1902891C7759DC00963461 /* Products */,
+				687FF23D5823B9461F79BAB7 /* Pods */,
+				5F140DECD8EDAA59C87DE475 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF1902891C7759DC00963461 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF1902881C7759DC00963461 /* SoundInMotion.app */,
+				DF1902A11C7759DD00963461 /* SoundInMotionTests.xctest */,
+				DF1902AC1C7759DD00963461 /* SoundInMotionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF19028A1C7759DC00963461 /* SoundInMotion */ = {
+			isa = PBXGroup;
+			children = (
+				3D6B7ECD1C81C6A500929744 /* TestFairy */,
+				DF19028E1C7759DC00963461 /* AppDelegate.h */,
+				DF19028F1C7759DC00963461 /* AppDelegate.m */,
+				DF1902941C7759DD00963461 /* Main.storyboard */,
+				DF1902971C7759DD00963461 /* Assets.xcassets */,
+				DF1902991C7759DD00963461 /* LaunchScreen.storyboard */,
+				DF19029C1C7759DD00963461 /* Info.plist */,
+				DF1902C61C776CC500963461 /* Constants.h */,
+				DF1902C41C776C8E00963461 /* Constants.m */,
+				DF1902C11C776C0F00963461 /* ProjectGlobals.h */,
+				DF1902C21C776C0F00963461 /* ProjectGlobals.m */,
+				DF1902BE1C776BC500963461 /* Controllers */,
+				DF1902C01C776BC500963461 /* Views */,
+				DF6523D21CEB917C00275600 /* SoundEditionClasses */,
+				DF1902BF1C776BC500963461 /* Supplement */,
+				DF19028B1C7759DC00963461 /* Supporting Files */,
+			);
+			path = SoundInMotion;
+			sourceTree = "<group>";
+		};
+		DF19028B1C7759DC00963461 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D569AC41CCE138D00057A29 /* Timer.h */,
+				3D569AC51CCE138D00057A29 /* Timer.m */,
+				3D42F2651C9B009400C6D30E /* video.mov */,
+				3D0C59FE1C7C9E0D0083E15F /* tudum.mp3 */,
+				3D0C59FF1C7C9E0D0083E15F /* ring.mp3 */,
+				DF19028C1C7759DC00963461 /* main.m */,
+				DF1882821CA575970083B3BD /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF1902A41C7759DD00963461 /* SoundInMotionTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF1902A51C7759DD00963461 /* SoundInMotionTests.m */,
+				DF1902A71C7759DD00963461 /* Info.plist */,
+			);
+			path = SoundInMotionTests;
+			sourceTree = "<group>";
+		};
+		DF1902AF1C7759DD00963461 /* SoundInMotionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF1902B01C7759DD00963461 /* SoundInMotionUITests.m */,
+				DF1902B21C7759DD00963461 /* Info.plist */,
+			);
+			path = SoundInMotionUITests;
+			sourceTree = "<group>";
+		};
+		DF1902BE1C776BC500963461 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DF1902C71C776D4200963461 /* MainController.h */,
+				DF1902C81C776D4200963461 /* MainController.m */,
+				3DF9798B1CC6686C00A7EF42 /* ProjectCollectionViewCell.h */,
+				3DF9798C1CC6686C00A7EF42 /* ProjectCollectionViewCell.m */,
+				3D5E03F41C7B18D90059CC14 /* VideoController.h */,
+				3D5E03F51C7B18D90059CC14 /* VideoController.m */,
+				3DF67DB81CB51E1400FD005D /* StepsFrameController.h */,
+				3DF67DB91CB51E1400FD005D /* StepsFrameController.m */,
+				3DD757F91CC914A600056A0F /* MenuController.h */,
+				3DD757FA1CC914A600056A0F /* MenuController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DF1902BF1C776BC500963461 /* Supplement */ = {
+			isa = PBXGroup;
+			children = (
+				3D7480621C884150005932DB /* UIView+MakeFromXib.h */,
+				3D7480631C884150005932DB /* UIView+MakeFromXib.m */,
+				DF6523DF1CEB920E00275600 /* CompositionPlayer.h */,
+				DF6523E01CEB920E00275600 /* CompositionPlayer.m */,
+				DF1A8E3B1CC4AAF8005CED5F /* iCarousel.h */,
+				DF1A8E3C1CC4AAF8005CED5F /* iCarousel.m */,
+			);
+			path = Supplement;
+			sourceTree = "<group>";
+		};
+		DF1902C01C776BC500963461 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3DB4876F1C99742700F99F67 /* TracksView */,
+				3D5E03FA1C7C74B60059CC14 /* ToolsView.h */,
+				3D5E03FB1C7C74B60059CC14 /* ToolsView.m */,
+				DF1A8E361CC4AAC8005CED5F /* SelectedPerformanceArea.h */,
+				DF1A8E371CC4AAC8005CED5F /* SelectedPerformanceArea.m */,
+				DF1A8E381CC4AAC8005CED5F /* SelectedPerformanceArea.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF1A8E241CC4A8B2005CED5F /* PerformanceArea */ = {
+			isa = PBXGroup;
+			children = (
+				DF1A8E271CC4A8B2005CED5F /* PerformanceArea.h */,
+				DF1A8E281CC4A8B2005CED5F /* PerformanceArea.m */,
+				DF1A8E2D1CC4A8B2005CED5F /* PerformanceAreaStep.h */,
+				3D569ACC1CCFA69100057A29 /* PerformanceAreaStep.m */,
+				DF1A8E2F1CC4A8B2005CED5F /* PerformanceAreaStep.xib */,
+				DF1A8E251CC4A8B2005CED5F /* PerfomanceAreaStepGraphicFX.h */,
+				DF1A8E261CC4A8B2005CED5F /* PerfomanceAreaStepGraphicFX.m */,
+				DF1A8E291CC4A8B2005CED5F /* PerformanceAreaCar.h */,
+				DF1A8E2A1CC4A8B2005CED5F /* PerformanceAreaCar.m */,
+				DF1A8E2B1CC4A8B2005CED5F /* PerformanceAreaRain.h */,
+				DF1A8E2C1CC4A8B2005CED5F /* PerformanceAreaRain.m */,
+			);
+			path = PerformanceArea;
+			sourceTree = "<group>";
+		};
+		DF6523D21CEB917C00275600 /* SoundEditionClasses */ = {
+			isa = PBXGroup;
+			children = (
+				DF6523D31CEB917C00275600 /* MovieSoundEdition.h */,
+				DF6523D41CEB917C00275600 /* MovieSoundEdition.m */,
+				DF6523D51CEB917C00275600 /* RecordSession.h */,
+				DF6523D61CEB917C00275600 /* RecordSession.m */,
+				DF6523D71CEB917C00275600 /* SoundRange.h */,
+				DF6523D81CEB917C00275600 /* SoundRange.m */,
+				DF6523D91CEB917C00275600 /* SoundTrack.h */,
+				DF6523DA1CEB917C00275600 /* SoundTrack.m */,
+			);
+			path = SoundEditionClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF1902871C7759DC00963461 /* SoundInMotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1902B51C7759DD00963461 /* Build configuration list for PBXNativeTarget "SoundInMotion" */;
+			buildPhases = (
+				A8549A12027D10291086F7D0 /* Check Pods Manifest.lock */,
+				DF1902841C7759DC00963461 /* Sources */,
+				DF1902851C7759DC00963461 /* Frameworks */,
+				DF1902861C7759DC00963461 /* Resources */,
+				B230D8C06D62049D78941A46 /* Embed Pods Frameworks */,
+				99FA4447AA87289232AD8811 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundInMotion;
+			productName = SoundInMotion;
+			productReference = DF1902881C7759DC00963461 /* SoundInMotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF1902A01C7759DD00963461 /* SoundInMotionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1902B81C7759DD00963461 /* Build configuration list for PBXNativeTarget "SoundInMotionTests" */;
+			buildPhases = (
+				DF19029D1C7759DD00963461 /* Sources */,
+				DF19029E1C7759DD00963461 /* Frameworks */,
+				DF19029F1C7759DD00963461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF1902A31C7759DD00963461 /* PBXTargetDependency */,
+			);
+			name = SoundInMotionTests;
+			productName = SoundInMotionTests;
+			productReference = DF1902A11C7759DD00963461 /* SoundInMotionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF1902AB1C7759DD00963461 /* SoundInMotionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1902BB1C7759DD00963461 /* Build configuration list for PBXNativeTarget "SoundInMotionUITests" */;
+			buildPhases = (
+				DF1902A81C7759DD00963461 /* Sources */,
+				DF1902A91C7759DD00963461 /* Frameworks */,
+				DF1902AA1C7759DD00963461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF1902AE1C7759DD00963461 /* PBXTargetDependency */,
+			);
+			name = SoundInMotionUITests;
+			productName = SoundInMotionUITests;
+			productReference = DF1902AC1C7759DD00963461 /* SoundInMotionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF1902801C7759DC00963461 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SoundInMotion;
+				TargetAttributes = {
+					DF1902871C7759DC00963461 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8Q6VB2DGC3;
+					};
+					DF1902A01C7759DD00963461 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DF1902871C7759DC00963461;
+					};
+					DF1902AB1C7759DD00963461 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DF1902871C7759DC00963461;
+					};
+				};
+			};
+			buildConfigurationList = DF1902831C7759DC00963461 /* Build configuration list for PBXProject "SoundInMotion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF19027F1C7759DC00963461;
+			productRefGroup = DF1902891C7759DC00963461 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF1902871C7759DC00963461 /* SoundInMotion */,
+				DF1902A01C7759DD00963461 /* SoundInMotionTests */,
+				DF1902AB1C7759DD00963461 /* SoundInMotionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF1902861C7759DC00963461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D42F2661C9B009400C6D30E /* video.mov in Resources */,
+				DF19029B1C7759DD00963461 /* LaunchScreen.storyboard in Resources */,
+				DF1A8E3A1CC4AAC8005CED5F /* SelectedPerformanceArea.xib in Resources */,
+				DF1902981C7759DD00963461 /* Assets.xcassets in Resources */,
+				3D0C5A011C7C9E0D0083E15F /* ring.mp3 in Resources */,
+				DF1A8E351CC4A8B2005CED5F /* PerformanceAreaStep.xib in Resources */,
+				3D6B7ED21C81C6B500929744 /* upload-dsym.sh in Resources */,
+				DF1902961C7759DD00963461 /* Main.storyboard in Resources */,
+				843999851CA04C9D00FD1D42 /* SoundsForms in Resources */,
+				3D0C5A001C7C9E0D0083E15F /* tudum.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF19029F1C7759DD00963461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1902AA1C7759DD00963461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99FA4447AA87289232AD8811 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8549A12027D10291086F7D0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B230D8C06D62049D78941A46 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF1902841C7759DC00963461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7480641C884150005932DB /* UIView+MakeFromXib.m in Sources */,
+				DF1902C51C776C8E00963461 /* Constants.m in Sources */,
+				DF6523DC1CEB917C00275600 /* RecordSession.m in Sources */,
+				DF1902901C7759DC00963461 /* AppDelegate.m in Sources */,
+				DF6523DB1CEB917C00275600 /* MovieSoundEdition.m in Sources */,
+				3D5E03FC1C7C74B60059CC14 /* ToolsView.m in Sources */,
+				DF6523E11CEB920E00275600 /* CompositionPlayer.m in Sources */,
+				3DF9798D1CC6686C00A7EF42 /* ProjectCollectionViewCell.m in Sources */,
+				DF1A8E3D1CC4AAF8005CED5F /* iCarousel.m in Sources */,
+				3D5E03F91C7B61230059CC14 /* SoundsTableView.m in Sources */,
+				3D569AC61CCE138D00057A29 /* Timer.m in Sources */,
+				DF1A8E391CC4AAC8005CED5F /* SelectedPerformanceArea.m in Sources */,
+				DF1A8E331CC4A8B2005CED5F /* PerformanceAreaRain.m in Sources */,
+				DF6523DD1CEB917C00275600 /* SoundRange.m in Sources */,
+				DF1A8E321CC4A8B2005CED5F /* PerformanceAreaCar.m in Sources */,
+				3D3508031C9863060042138C /* TracksView.m in Sources */,
+				3D0C5A061C7C9EB70083E15F /* SoundTableCell.m in Sources */,
+				3D569ACD1CCFA69100057A29 /* PerformanceAreaStep.m in Sources */,
+				3DF67DBA1CB51E1400FD005D /* StepsFrameController.m in Sources */,
+				DF1902C31C776C0F00963461 /* ProjectGlobals.m in Sources */,
+				DF1A8E301CC4A8B2005CED5F /* PerfomanceAreaStepGraphicFX.m in Sources */,
+				3DD757FB1CC914A600056A0F /* MenuController.m in Sources */,
+				DF6523DE1CEB917C00275600 /* SoundTrack.m in Sources */,
+				DF1902C91C776D4200963461 /* MainController.m in Sources */,
+				3D5E03F61C7B18D90059CC14 /* VideoController.m in Sources */,
+				DF19028D1C7759DC00963461 /* main.m in Sources */,
+				DF1A8E311CC4A8B2005CED5F /* PerformanceArea.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF19029D1C7759DD00963461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1902A61C7759DD00963461 /* SoundInMotionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1902A81C7759DD00963461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1902B11C7759DD00963461 /* SoundInMotionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF1902A31C7759DD00963461 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF1902871C7759DC00963461 /* SoundInMotion */;
+			targetProxy = DF1902A21C7759DD00963461 /* PBXContainerItemProxy */;
+		};
+		DF1902AE1C7759DD00963461 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF1902871C7759DC00963461 /* SoundInMotion */;
+			targetProxy = DF1902AD1C7759DD00963461 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF1902941C7759DD00963461 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF1902951C7759DD00963461 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF1902991C7759DD00963461 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF19029A1C7759DD00963461 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF1902B31C7759DD00963461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DF1902B41C7759DD00963461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF1902B61C7759DD00963461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9541FA18F862DEE4FB398B06 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = SoundInMotion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SoundInMotion",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sim.SoundInMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		DF1902B71C7759DD00963461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD1A090E0FCFF26919D28FC /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = SoundInMotion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SoundInMotion",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sim.SoundInMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		DF1902B91C7759DD00963461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoundInMotionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sim.SoundInMotionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundInMotion.app/SoundInMotion";
+			};
+			name = Debug;
+		};
+		DF1902BA1C7759DD00963461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoundInMotionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sim.SoundInMotionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundInMotion.app/SoundInMotion";
+			};
+			name = Release;
+		};
+		DF1902BC1C7759DD00963461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SoundInMotionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sim.SoundInMotionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SoundInMotion;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DF1902BD1C7759DD00963461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SoundInMotionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sim.SoundInMotionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SoundInMotion;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF1902831C7759DC00963461 /* Build configuration list for PBXProject "SoundInMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1902B31C7759DD00963461 /* Debug */,
+				DF1902B41C7759DD00963461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF1902B51C7759DD00963461 /* Build configuration list for PBXNativeTarget "SoundInMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1902B61C7759DD00963461 /* Debug */,
+				DF1902B71C7759DD00963461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF1902B81C7759DD00963461 /* Build configuration list for PBXNativeTarget "SoundInMotionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1902B91C7759DD00963461 /* Debug */,
+				DF1902BA1C7759DD00963461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF1902BB1C7759DD00963461 /* Build configuration list for PBXNativeTarget "SoundInMotionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1902BC1C7759DD00963461 /* Debug */,
+				DF1902BD1C7759DD00963461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF1902801C7759DC00963461 /* Project object */;
+}
